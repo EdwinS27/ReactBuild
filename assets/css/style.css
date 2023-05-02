@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 html, body {
   z-index: 1;
   margin: 0;
@@ -15,8 +14,6 @@ html, body {
 .spacer {
   margin-bottom: 2%;
 }
-=======
->>>>>>> 4c6d95df6ce0aeefef7701c65f1af0da27428399
 #ProjectTitle {
   color: black;
 }
@@ -24,26 +21,16 @@ html, body {
 #CardButtonText {
   color: white;
 }
-<<<<<<< HEAD
-=======
-
-#space  {
-  padding-top: 5%;
-}
->>>>>>> 4c6d95df6ce0aeefef7701c65f1af0da27428399
 .defaultText {
   color: black,
 }
 .changeText {
  color: white; 
 }
-<<<<<<< HEAD
-=======
 #mainDiv {
   background-color: black;
 }
 
->>>>>>> 4c6d95df6ce0aeefef7701c65f1af0da27428399
 #centerDiv {
   text-align: center;
 }
@@ -139,10 +126,7 @@ html, body {
 
 #NavBarStyle {
   z-index: 2;
-<<<<<<< HEAD
   top: 0;
   float: left;
   display: block;
-=======
->>>>>>> 4c6d95df6ce0aeefef7701c65f1af0da27428399
 }
