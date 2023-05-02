@@ -1,0 +1,67 @@
+.headers {
+    color: white;
+}
+
+/* List of Exchanges */
+#person-input, #exchanges, #result {
+    color: white;
+    float: left;
+    text-align: left;
+}
+
+input {
+    text-align: center;
+    margin-left: 5%;
+}
+.list{
+    list-style: none;
+}
+
+.inputStyle {
+    border-radius: 10%;
+    width: 10%;
+}
+
+.calculateButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* For Mobile Phones */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+body {
+    font-size: 25px;
+}
+.footer {
+    bottom: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    background-color: grey;
+}
+}
+
+/* For Desktop */
+@media screen and (min-width: 720px) {
+body {
+    font-size: 20px;
+}
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
