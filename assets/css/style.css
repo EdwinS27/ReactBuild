@@ -44,6 +44,11 @@ html, body {
   color: black;
 }
 
+.dev-list {
+  list-style: none;
+  padding: 0px;
+}
+
 .contact-clean {
   background: #f1f7fc;
   padding: 80px 0;
