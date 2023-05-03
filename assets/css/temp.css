@@ -1,74 +1,48 @@
-.container {
-min-width: 100%;
-min-height: 100%;
-}
-
-/* List of Exchanges */
 .exchanges {
-border: solid black;
-padding: 1%;
-float: left;
+    float: left;
+    text-align: left; 
 }
 
-/* Inputs */
-.personInput {
-border: solid black;
-padding: 1%;
-float: left;
+.ex-in {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
 
-.displayResult {
-border: solid black;
-padding: 1%;
-float: left;
+.list{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+    padding: 0px;
 }
 
-.inputStyle {
-padding: 1%;
-margin: 1%;
-border-radius: 5%;
+.input-style {
+    align-items: center;
+    justify-content: center;
 }
+
+.in-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+
+/* 
 
 .calculateButton {
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-td {
-border: 1px solid black;
-min-width: 100px;
-text-align: center;
-}
-
-.list, li {
-list-style-type: none;
-padding: 1% 0%;
-}
-
-.calculateColumn {
-width: 25%;
-}
-
-/* For Mobile Phones */
+For Mobile Phones
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
 body {
     font-size: 25px;
-}
-
-.exchanges {
-    min-width: 45%;
-    margin: 2.5% 15%;
-}
-
-.personInput {
-    min-width: 45%;
-    margin: 2.5% 15%;
-}
-
-.displayResult {
-    min-width: 45%;
-    margin: 2.5% 15%;
 }
 .footer {
     bottom: 0;
@@ -80,25 +54,10 @@ body {
 }
 }
 
-/* For Desktop */
+For Desktop
 @media screen and (min-width: 720px) {
 body {
     font-size: 20px;
-}
-
-.exchanges {
-    min-width: 45%;
-    margin: 2.5% 15%;
-}
-
-.personInput {
-    min-width: 45%;
-    margin: 2.5% 15%;
-}
-
-.displayResult {
-    min-width: 45%;
-    margin: 2.5% 15%;
 }
 }
 
@@ -116,4 +75,4 @@ body {
     width: 100%;
     position: absolute;
   }
-  
+   */
