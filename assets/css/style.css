@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   z-index: 1;
   margin: 0px;
   padding: 0px;
@@ -6,10 +7,12 @@ html, body {
   height: 0px;
   background-color: black;
 }
+
 #main-container {
   min-height: 100vh;
 }
-.main-footer{
+
+.main-footer {
   position: absolute;
   bottom: 0;
   height: 2.5rem;
@@ -39,7 +42,7 @@ html, body {
   min-width: 300px;
   max-width: 800px;
 }
-   
+
 .project-body {
   color: black;
   min-width: 300px;
@@ -71,10 +74,10 @@ html, body {
   width: 90%;
   margin: 0 auto;
   background-color: #ffffff;
-  padding : 40px;
+  padding: 40px;
   border-radius: 4px;
   color: #505e6c;
-  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width:767px) {
@@ -98,7 +101,7 @@ html, body {
 .contact-clean form .form-control {
   background: #fff;
   border-radius: 2px;
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
   outline: none;
   color: inherit;
   padding-left: 12px;

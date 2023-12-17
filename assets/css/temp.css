@@ -1,0 +1,78 @@
+.exchanges {
+    float: left;
+    text-align: left; 
+}
+
+.ex-in {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+    padding: 0px;
+}
+
+.input-style {
+    align-items: center;
+    justify-content: center;
+}
+
+.in-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+
+/* 
+
+.calculateButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+For Mobile Phones
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+body {
+    font-size: 25px;
+}
+.footer {
+    bottom: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    background-color: grey;
+}
+}
+
+For Desktop
+@media screen and (min-width: 720px) {
+body {
+    font-size: 20px;
+}
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+   */
