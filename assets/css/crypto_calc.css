@@ -1,0 +1,39 @@
+.exchanges {
+    float: left;
+    text-align: left;
+}
+
+.ex-in {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.list {
+    text-align: left;
+    list-style: none;
+    padding: 0px;
+}
+
+.input-style {
+    /* height: 30px; */
+    padding: 0px;
+    text-align: right;
+}
+
+.in-row {
+    width: 400px;
+    display: block;
+}
+
+.span-label {
+    margin-left: 10px;
+}
+
+.c-f {
+    width: 40%;
+}
+
+.c-in {
+    width: auto;
+}
